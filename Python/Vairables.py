@@ -1,4 +1,4 @@
-# Variables (String, Integer, Float, Boolean)
+##########################     Variables (String, Integer, Float, Boolean)      #############################
 
 import random
 
@@ -13,7 +13,7 @@ firstname,lastname = name.split()
 print("Name after splitting " + firstname)
 
 
-#String
+#################      String     ##################
 
 first_name = "Gaurav"
 print(first_name)
@@ -26,7 +26,7 @@ print(f"My name is {first_name}, I am {age} Years old.")
 
 
 
-#Integer  and Float
+################       #Integer  and Float      #################
 age = 25
 quantity = 3
 
@@ -40,7 +40,7 @@ print(z)
 
 
 
-#  Boolean  (True, False)
+####################      Boolean  (True, False)         ######################
 
 is_student = False
 
