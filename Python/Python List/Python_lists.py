@@ -8,7 +8,7 @@
 my_lists  = ["Gaurav", "Sakshi", "Omprakash", "Pankaj"]
 print(my_lists)
 
-#Lists are ordered , changebale , and allows duplicate values
+#Lists are ORDERED , CHANGEABLE , and ALLOWS DUPLICATE VALUES
 ###############################################################################################################
 # Method     ################Description######################
 # append()	--> Adds an element at the end of the list
