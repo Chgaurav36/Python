@@ -60,17 +60,28 @@ for i in range(len(numbers)):
 print(f"Number {num_to_find} occured {counter} times in the list") 
 
 # 11. **Sort a List:** Sort the `numbers` list in ascending order and the `fruits` list in descending alphabetical order. Print both sorted lists.
-print(numbers.sort())
-print(numbers.reverse())
+print(sorted(numbers))
+numbers.reverse()
+print(numbers)
 
 
 # 12. **Reverse a List:** Reverse the order of the `fruits` list and print the result.
+fruits.reverse()
+print(fruits)
 
 # 13. **Combine Lists:** Create another list `citrus = ["lemon", "lime"]`. Combine this list with the `fruits` list and print the combined list.
+
+citrus = ["lemon", "lime"]
+
+combined_list = fruits,citrus
+
+print(citrus)
 
 # ############################# List Comprehensions and Loops###############################
 # ---
 # 14. **Loop Through a List:** Use a `for` loop to iterate through the `fruits` list and print each fruit on a new line.
+
+
 
 # 15. **Filter a List with a Loop:** Create a new empty list. Loop through a list of numbers `nums = [10, 25, 30, 45, 50, 65]` and add only the numbers greater than 40 to the new list.
 
